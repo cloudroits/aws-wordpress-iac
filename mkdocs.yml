@@ -1,0 +1,30 @@
+site_name: WordPress AWS DevOps Stack
+site_url: https://cloudroits.github.io/aws-wordpress-iac/
+repo_url: https://github.com/cloudroits/aws-wordpress-iac
+repo_name: cloudroits/aws-wordpress-iac
+site_author: Cloudroits
+site_description: Terraform-based WordPress AWS DevOps stack with Secrets Manager, S3 Backend, DynamoDB Locking & CI/CD.
+
+nav:
+  - Home: index.md
+  - Roadmap: index.md
+
+theme:
+  name: material
+  palette:
+    primary: #042432  
+    accent: #045e81
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
